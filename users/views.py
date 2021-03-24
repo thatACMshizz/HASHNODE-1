@@ -26,7 +26,7 @@ def profile(request):
 		'p_form': p_form
 	}
 	
-	return render(request, 'user/profile.html', context)
+	return render(request, 'users/profile.html', context)
 
 
 #messages.debug
